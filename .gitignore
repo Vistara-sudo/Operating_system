@@ -1,0 +1,8 @@
+# Ignore C compiled executable files
+*.exe
+
+# Ignore object files
+*.o
+
+# Ignore other common compiled files
+*.out
