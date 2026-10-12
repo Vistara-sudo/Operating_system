@@ -25,7 +25,7 @@ void enqueue(int val){
 }
 
 int dequeue(){
-    if(front == -1 || front > rear){
+    if(front == -1){
         return -1;
     }else{
         int val = queue[front++];
